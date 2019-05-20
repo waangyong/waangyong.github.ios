@@ -22,6 +22,36 @@
 			window.onload = function(){
 				new WOW().init();
 			};
+			
+			// 音乐播放
+			function autoPlayMusic() {
+			    // 自动播放音乐效果，解决浏览器或者APP自动播放问题
+			    function musicInBrowserHandler() {
+			        musicPlay(true);
+			        document.body.removeEventListener('touchstart', musicInBrowserHandler);
+			    }
+			    document.body.addEventListener('touchstart', musicInBrowserHandler);
+			
+			    // 自动播放音乐效果，解决微信自动播放问题
+			    function musicInWeixinHandler() {
+			        musicPlay(true);
+			        document.addEventListener("WeixinJSBridgeReady", function () {
+			            musicPlay(true);
+			        }, false);
+			        document.removeEventListener('DOMContentLoaded', musicInWeixinHandler);
+			    }
+			    document.addEventListener('DOMContentLoaded', musicInWeixinHandler);
+			}
+			function musicPlay(isPlay) {
+			    var audio = document.getElementById('musicid');
+			    if (isPlay && audio.paused) {
+			        audio.play();
+			    }
+			    if (!isPlay && !audio.paused) {
+			        audio.pause();
+			    }
+			}
+			autoPlayMusic();
 		</script>
 	</head>
 	<body>
@@ -70,7 +100,7 @@
 			
 			<div class="one wow fadeInUp" data-wow-delay="32s" style="margin-top: 2%; margin-left: 50%; color: white;"><h4>愿你日子清净，抬头遇见的都是柔情。</h4></div>
 			
-			<div class="one wow fadeInUp" data-wow-delay="34s" style="margin-top: 2%; text-align: center; color: white;"><h1>I am not happy bexa&ensp;se……</h1></div>
+			<div class="one wow fadeInUp" data-wow-delay="34s" style="margin-top: 2%; text-align: center; color: white;"><h1>I am not happy beca&ensp;se……</h1></div>
 			<div class="one wow fadeInUp" data-wow-delay="36s" style="margin-top: 2%; margin-left: 10%; color: white;"><h4>如果我不能拥有甜甜的恋爱，原味的也可以呀。</h4></div>
 			<div class="one wow fadeInUp" data-wow-delay="38s" style="margin-top: 2%; margin-left: 50%; color: white;"><h5>越是试图忘记你，越是记得深刻。</h5></div>
 			<div class="one wow fadeInUp" data-wow-delay="40s" style="margin-top: 2%; margin-left: 40%; color: white;"><h1>余生太长，希望有你。</h1></div>
