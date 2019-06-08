@@ -1,0 +1,130 @@
+{
+  "msg": "ok",
+  "status": 0,
+  "data": {
+    "cities":[
+      {
+        "id": 1,
+        "na": "成都",
+        "ishot": 1,
+        "py": "beijing"
+      },
+      {
+        "id": 2,
+        "na": "北京",
+        "ishot": 1,
+        "py": "chengdu"
+      },
+      {
+        "id": 3,
+        "na": "上海",
+        "ishot": 1,
+        "py": "shanghai"
+      },
+      {
+        "id": 4,
+        "na": "天津",
+        "ishot": 1,
+        "py": "tianjing"
+      }
+    , {
+        "id": 5,
+        "na": "重庆",
+        "ishot": 1,
+        "py": "chongqing"
+      }
+    , {
+        "id": 6,
+        "na": "西藏",
+        "ishot": 0,
+        "py": "xizang"
+      }
+    , {
+        "id": 7,
+        "na": "宁夏",
+        "ishot": 0,
+        "py": "ningxia"
+      }
+    , {
+        "id": 8,
+        "na": "内蒙古",
+        "ishot": 1,
+        "py": "neimenggu"
+      }
+    , {
+        "id": 9,
+        "na": "广西",
+        "ishot": 0,
+        "py": "guangxi"
+      }
+    , {
+        "id": 10,
+        "na": "黑龙江",
+        "ishot": 0,
+        "py": "heilongjiang"
+      }
+    , {
+        "id": 11,
+        "na": "吉林",
+        "ishot": 1,
+        "py": "jiling"
+      }
+    , {
+        "id": 12,
+        "na": "辽宁",
+        "ishot": 1,
+        "py": "liaoning"
+      }
+    , {
+        "id": 13,
+        "na": "河北",
+        "ishot": 1,
+        "py": "hebei"
+      }
+    , {
+        "id": 14,
+        "na": "山东",
+        "ishot": 1,
+        "py": "shandong"
+      }
+    , {
+        "id": 15,
+        "na": "江苏",
+        "ishot": 1,
+        "py": "jiangsu"
+      },
+      {
+        "id": 16,
+        "na": "安徽",
+        "ishot": 0,
+        "py": "anhui"
+      },
+      {
+        "id": 17,
+        "na": "浙江",
+        "ishot": 0,
+        "py": "zhejiang"
+      },
+      {
+        "id": 18,
+        "na": "福建",
+        "ishot": 0,
+        "py": "fujian"
+      },
+      {
+        "id": 19,
+        "na": "广东",
+        "ishot": 0,
+        "py": "guangdong"
+      },
+      {
+        "id": 20,
+        "na": "海南",
+        "ishot": 0,
+        "py": "hainan"
+      }
+
+    ]
+
+  }
+}
