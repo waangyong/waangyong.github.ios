@@ -4,7 +4,7 @@
       <scroller v-else v-bind:handleToScroll="handleToScroll" v-bind:handleToTouchEnd="handleToTouchEnd">
         <ul>
           <li>{{pullDownMessage}}</li>
-          <li v-for="cinema in cinemaList" >
+          <li v-for="cinema in cinemaList" :key="cinema.id">
             <div>
               <span>{{cinema.rm}}</span>
               <span class="q"><span class="price">{{cinema.price}}</span>元起</span>

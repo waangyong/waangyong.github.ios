@@ -15,12 +15,11 @@
             <router-link tag="div" to="/movie/search" class="search_entry">
               <i class="iconfont icon-sousuo">搜索</i>
             </router-link>
-
          </div>
-
         </div>
-      <router-view></router-view>
+      <router-view name="default"></router-view>
       <TabBar></TabBar>
+      <router-view name="detail"></router-view>
     </div>
 </template>
 

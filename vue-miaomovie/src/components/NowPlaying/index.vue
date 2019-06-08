@@ -1,10 +1,10 @@
 <template>
   <div class="movie_body" ref="movie_body">
-    <ul >
+    <ul>
       <li class="pullDown">{{pullDownMessage}}</li>
       <li v-for="item in movieList" :key="item.id">
       <div class="pic_show"><img :src="item.img"  alt=""></div>
-      <div class="info_list">
+      <div class="info_list" @touchstart="handleToDetail(item.id)">
         <h2>{{item.rm}}</h2>
         <p>观众评 <span class="grade">9.2</span></p>
         <p>{{item.star}}</p>
@@ -15,6 +15,7 @@
       </div>
       </li>
     </ul>
+    <MessageBox></MessageBox>
   </div>
 </template>
 
@@ -62,6 +63,11 @@
            }
          })
        })
+      },
+      methods:{
+          handleToDetail(movieId){
+            this.$router.push('/movie/detail/'+movieId)
+          }
       }
     }
 </script>

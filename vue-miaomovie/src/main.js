@@ -11,6 +11,7 @@ import '../public/css/common.css'
 import '../public/css/swiper.min.css'
 import loading from './components/loading'
 import scroller from './components/scroller'
+import MessageBox from './components/js/MessageBox'
 
 Vue.prototype.axios=axios
 Vue.use(ElementUi)
@@ -19,6 +20,7 @@ Vue.config.productionTip = false
 //注册全局组件
 Vue.component('scroller',scroller)
 Vue.component('loading',loading)
+Vue.component('MessageBox',MessageBox)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

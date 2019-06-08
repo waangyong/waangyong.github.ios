@@ -36,6 +36,7 @@
         name: "city",
       data(){
           return {
+            a:0,
             //保存返回的所有城市
             cityList:[],
             //保存返回的热门城市
@@ -51,7 +52,7 @@
             this.hotList=Json.parse(hotList);
           } else {
             setTimeout(()=>{
-              this.axios.get('http://localhost:8080/static/city.json')
+              this.axios.get('http://localhost:8080/static/city.json?id=10')
                 .then((res)=>{
                   //调用格式化城市的方法
                   var {cityList,hotList}=this.formatCityList(res.data.data.cities);
