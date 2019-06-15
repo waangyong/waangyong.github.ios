@@ -1,0 +1,372 @@
+.banner>img{
+	width: 100%;
+}
+#al{
+	position: relative;
+	top:220px;
+}
+/*顶部左边图片*/
+a{
+   color: #002052;
+   	font-size: 23px;
+   	border: 0;
+}
+a:hover{
+   text-decoration: none;
+	cursor: pointer;
+}
+.computer{
+	top: 200px;
+	position: relative;
+}
+#top{
+	height: 400px;
+}
+#zuo {
+	width: 30%;
+	height: 300px;
+	position: absolute;
+	left: 16%;
+	top: 70px;
+}
+/*顶部右边盒子*/
+#you {
+	position: absolute;
+	left: 50%;
+	top: 70px;
+	width: 30%;
+}
+/*顶部右边字*/
+#you a {
+	margin-left: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	outline: 0;
+}
+
+/*顶部左边线*/
+#zuoxian {
+	height: 2px;
+	background-color: gray;
+    position: relative;
+    top: 30px;
+    width: 55%;
+
+}
+/*顶部右边线*/
+#youxianxian{
+	height: 2px;
+	background-color: gray;
+	position: relative;
+	top: 25px;
+	width: 24%;
+	left: 76%;
+}
+/*计算机科学与技术*/
+#jisuanji{
+	position: absolute;
+	top: 17px;
+	right: 26%;
+	font-size: 25px;
+	font-weight: 600;
+}
+/*中上盒子*/
+#zhong {
+	position: absolute;
+	width: 100%;
+	top: 450px;
+	height: 400px;
+}
+/*中上左边线*/	
+#zhongzuoxian{
+	height: 2px;
+	background-color: gray;
+    position: relative;
+    top: 6px;
+	width: 28%;
+}
+/*中上右边线*/
+#zhongyouxian{
+	height: 2px;
+	background-color: gray;
+	position: relative;
+	width: 55%;
+	top: 0;
+    left: 45%;
+}
+/*物联网*/
+#wulianwang{
+	position: absolute;
+	top: -10px;
+	left: 30%;
+	font-size: 25px;
+	font-weight: 600;
+}
+/*中上左边盒子*/
+#zhongyou {
+	position: absolute;
+	left: 16%;
+	width: 30%;
+	top: 50px;
+	
+}
+/*中上左边字*/
+#zhongyou a{
+	font-size: 23px;
+	font-weight: 500;
+	margin-left: 20px;
+}
+/*中上部分右边图片*/
+#zhongzuo {
+	position: absolute;
+	width: 30%;
+	height: 300px;
+	right: 20%;
+	top: 50px;
+}
+#xia{
+	position: relative;
+	top:-357px;
+}
+/*中下左边图片*/
+#xiazuo {
+	position: absolute;
+	width: 30%;
+	height: 300px;
+	left: 15%;
+	top: 900px;
+}
+#zhongzuo>img,#xiazuo>img,#zuo>img,#xiaxiazuo>img{
+	width: 100%;
+	height: 300px;
+}
+/*中下右边盒子*/
+#xiayou {
+	position: absolute;
+	right: 19%;
+	width: 27%;
+	top: 900px;
+	font-weight: 500;
+	font-size: 22px;
+}
+/*中下右边字*/
+#xiayou a{
+	margin-left: 10px;
+	
+}
+/*中下左边线*/
+#xiazuoxian{
+	height: 2px;
+	background-color: gray;
+    position: relative;
+    top: 850px;
+	width: 60%;
+}
+/*中下右边线*/
+#xiayouxian{
+	height: 2px;
+	background-color: gray;
+	position: relative;
+	width: 23%;
+	top: 850px;
+	left: 77%;
+
+}
+/*数字媒体技术*/
+#shuzi{
+	position: absolute;
+	top: 840px;
+	left: 61%;
+	font-weight: 600;
+	font-size: 25px;
+}
+/*下部右边图片*/
+#xiaxiazuo {
+	position: absolute;
+	width: 30%;
+	height: 300px;
+	right: 20%;
+	top: 1400px;
+}
+/*下部左边字*/
+#xiaxiayou {
+	position: absolute;
+	left: 12%;
+	width: 30%;
+	top: 1400px;
+	font-size: 22px;
+	font-weight: 500;
+}
+/*下部左边字*/
+#xiaxiayou a{
+	margin-left: 10px;
+}
+/*下部左边线*/
+#xiaxiazuoxian{
+	height: 2px;
+	background-color: gray;
+    position: relative;
+    top: 1300px;
+	width: 18%;
+}
+
+/*下部右边线*/
+#xiaxiayouxian {
+	height: 2px;
+	background-color: gray;
+	position: relative;
+	width: 69%;
+	top: 1300px;
+	left: 32%;
+}
+
+/*学工队伍*/
+#xuegong {
+	position: absolute;
+	top: 1300px;
+	left: 19%;
+	font-weight: 600;
+	font-size: 25px;
+}
+/*点击显示*/
+#clickdisplay {
+	width: 80%;
+	height: 800px;
+	border: 1px solid black;
+	display: none;
+	position: fixed;
+	z-index: 10000;
+	left: 10%;
+	top: 100px;
+}
+/*model*/
+/*老师图片盒子*/
+#moimg{
+	border-radius: 50%; 
+	width: 200px; 
+	height:200px;
+	float: left;
+	background-size: 203px 203px;
+	margin-top: 100px;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+/*模态框文本内容*/
+#message-text{
+	width: 65%;
+	height: 500px;
+	margin-left: 25%;
+}
+/*模态框大小位置*/
+.modal-content{
+	width: 180%; 
+	margin-left: -40%;
+}
+/*行政管理团队*/
+#bottom {
+	position: absolute;
+	width: 100%;
+	top: 1350px;
+	height: 400px;
+}
+/*中上左边线*/	
+#bottom_leftline{
+	height: 2px;
+	background-color: gray;
+    position: relative;
+
+	width: 28%;
+}
+/*中上右边线*/
+#bottom_rightline{
+	height: 2px;
+	background-color: gray;
+	position: relative;
+	width: 54%;
+	top: 0;
+    left: 46%;
+}
+/*行政管理*/
+#xinzheng{
+	position: absolute;
+	top: -10px;
+	left: 30%;
+	font-size: 25px;
+	font-weight: 600;
+}
+/*中上左边盒子*/
+#bottom_left {
+	position: absolute;
+	left: 16%;
+	width: 30%;
+	top: 50px;
+	
+}
+/*中上左边字*/
+#bottom_left a{
+	font-size: 23px;
+	font-weight: 500;
+	margin-left: 20px;
+}
+/*中上部分右边图片*/
+#bottom_right {
+	position: absolute;
+	width: 28%;
+	height: 300px;
+	right: 20%;
+	top: 50px;
+
+}
+/*软件工程*/
+#bot{
+    position: absolute;
+	width: 100%;
+	top: 1750px;
+	height: 400px;
+}
+/*中下左边图片*/
+#bot_left {
+	position: absolute;
+	width: 28%;
+	height: 300px;
+	left: 15%;
+    top: 50px;
+
+}
+/*中下右边盒子*/
+#bot_right {
+	position: absolute;
+	right: 19%;
+	width: 30%;
+	font-weight: 500;
+	font-size: 22px;
+	top: 50px;
+}
+/*中下右边字*/
+#bot_right a{
+	margin-left: 10px;
+	
+}
+/*中下左边线*/
+#bot_lefline{
+	height: 2px;
+	background-color: gray;
+    position: relative;
+	width: 60%;
+}
+/*中下右边线*/
+#bot_rightline{
+	height: 2px;
+	background-color: gray;
+	position: relative;
+	width: 31%;
+	left: 69%;
+
+}
+#ruanjian{
+	position: absolute;
+	left: 61%;
+	font-weight: 600;
+	font-size: 25px;
+	margin-top: -14px;
+}

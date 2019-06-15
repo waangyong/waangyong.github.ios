@@ -1,0 +1,76 @@
+/*师资力量的老师轮播li影响导航条*/
+
+/*.navbar .nav{*/
+	/*margin-left: -15px;*/
+/*}*/
+/*.navbar .nav li{*/
+	/*padding: 0;*/
+/*}*/
+.slider3>.slide>li {
+    list-style: none;
+	padding-left: 150px;
+}
+
+h2:not(:first-child) {
+    margin-top: 45px;
+}
+.banner img{
+	width: 100%;
+	height: 400px;
+}
+h2{
+	text-align: left;
+	margin-top: 80px;
+	padding-bottom: 8px;
+	font-size: 50px;
+}
+h2,h3{
+	color: rgb(0,77,187);
+	font-weight: bolder;
+	padding-left:13.28125% ;
+}
+h3{
+	margin-bottom: 20px;
+}
+.container-fluid>.more{
+	width: 100%;
+	margin: 0 0 20px 90%;
+	color: rgb(0,77,187);
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.container-fluid>h3>a{
+	color: rgb(0,77,187);
+	margin-left: 950px;
+	text-decoration: none;
+}
+.bx-viewport{
+	background: url(../img/fac_bg.png) no-repeat;/*改写……*/
+	background-size: 100% 100%;
+}
+.explain{/*改写……*/
+	margin-left: 40px;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.carousel .carousel-control {
+  background: none;
+  color: transparent;
+  overflow: hidden;
+  text-shadow: none;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  width: 110px;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+	.carousel .carousel-control{
+		display: none;
+	}
+
+	.slider3>.slide>li{
+		padding-left: 60px;
+	}
+}
+

@@ -1,0 +1,64 @@
+.SchoolProfile .chinese_title,.SchoolProfile .English_title{
+    text-align: center;
+    margin: auto;
+    letter-spacing: 6px;
+    color: rgb(0,77,187);
+}
+.SchoolProfile .chinese_title{
+    margin-top: 100px;
+}
+.SchoolProfile .English_title{
+    margin-top: 15px;
+}
+.SchoolProfile_text{
+    height: auto;
+    /*background-color: #5bc0de;*/
+    font-size: 16px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.SchoolProfile_text_hidden{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+}
+#SchoolProfile_imgBtn{
+    margin-top: 15px;
+    width: 36px;
+    height: 22px;
+}
+.SchoolProfile .row .col-md-8 .news_left .panel-title p a{
+    font-size: 18px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.SchoolProfile .row .col-md-8 .news_left .panel-body p a{
+    font-size: 18px ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.SchoolProfile .row .col-md-4 .panel a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.right_panel .panel-body .row{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

@@ -1,0 +1,66 @@
+/*教师获奖样式开始*/
+.banner{
+	width: 100%;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 400px;
+}
+.banner .teach_banner{
+	width: 30%;
+	height: 80px;
+	line-height: 80px;
+	letter-spacing: 10px;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 20%;
+	background: #000000;
+	opacity: 0.6;
+	font-size: 45px;
+	color: #fff;
+}
+.teacher{
+	background: url(../img/tea_aw_bg.png);
+}
+.teacher h1, .Research h1{
+	padding: 50px;
+	color: #00205C;	
+	text-align: center;
+	letter-spacing: 10px;
+}
+.teacher .awardone{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	overflow: hidden;
+}
+.teacher .awardone .award_img{
+	margin:  0 30px;
+}
+/*教师获奖样式结束*/
+
+/*科研成果样式开始*/
+.Research{
+	width: 100%;
+	padding-bottom: 30px;
+}
+.Research h3{
+	color: #00205c;
+	padding-left: 12%;
+}
+.Research h3 a{
+	color: #00205C;
+	text-decoration: none;
+}
+.Research table{
+	margin: 0 auto;
+}
+.Research table tbody tr td{
+	padding: 5px 60px;
+	border: 2px solid #c8c8c8;
+}
+/*科研成果样式结束*/

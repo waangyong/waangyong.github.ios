@@ -1,0 +1,144 @@
+/*首页师资队伍样式开始*/
+.htmleaf-container{
+  min-height: 100vh;
+  /*margin: 0;*/
+}
+ul {
+  padding: 0;
+}
+h2, .explain1,#single-quad{
+	margin: 0;
+	padding: 0;
+}
+h2,p {
+  text-align: center;
+}
+p{
+	margin:10px 0 0 0;
+}
+h2{
+	margin-top: 10px;
+}
+h2:not(:first-child) {
+  margin-top: 45px;
+}
+.carousel {
+  background: url(../img/fac_bg.png);
+}
+.carousel[data-shift="1"] .carousel-inner > .item {
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+.carousel .carousel-inner > .item .row {
+  margin: 0;
+
+.carousel .carousel-inner .row li{
+	padding-left: 5%;
+}
+.carousel .carousel-control {
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in-out;
+  width: 60px;
+}
+.carousel .carousel-control:before {
+  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 30px;
+}
+.carousel .carousel-control:after {
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  width: 100%;
+}
+.carousel .carousel-control:hover:after {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7);
+}
+.carousel .carousel-control .left img{
+	left: 0px;/*会影响轮播图片的左边按钮*/
+	height: 100%;
+}
+.carousel .carousel-control {
+	padding-top: 10%;
+}
+
+/*.carousel .carousel-control.left:before {
+  content: '\e079';
+}*/
+
+.carousel .carousel-control .left:after {
+  right: -100%;
+}
+.carousel .carousel-control .right img{
+	right:0px;
+} 
+
+/*.carousel .carousel-control.right:before {
+  content: '\e080';
+}*/
+
+.carousel .carousel-control.right:after {
+	left: -100%;
+}
+
+.carousel .carousel-inner .row .explain{
+	width: 75.45454545%;
+	height: 130px;
+	color: #FFFFFF;
+}
+
+.carousel .carousel-inner .row img{
+	margin-top: 20px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+/*首页师资队伍样式结束*/
+
+
+/*首页项目工作室样式开始*/
+.work .workpart{
+	width: 100%;
+	height: 800px;
+	background: url(../img/电子树.png) no-repeat;
+	background-position: center center;
+}
+.work .workpart .row .img-group{
+	margin: 0;
+	padding: 0;
+}
+.work .workpart>div:nth-child(1){
+	margin-left: 100px;
+	margin-right: 0;
+	margin-top: -130px;
+}
+.work .workpart>div:nth-child(2){
+	margin-left: 100px;
+	margin-right: -160px;
+}
+.work .workpart>div:nth-child(3){
+	margin-left: 0;
+	margin-top: 40px;
+	margin-right: -900px;
+}
+.work a{
+	color: #000000;
+	margin: 10px auto;
+}
+.work .m_title{
+	display: block;
+	position: fixed;
+	width: 80px;
+	height: 80px;
+	left: 90%;
+	bottom: 50%;
+	border: 1px solid gainsboro;
+}
+.work .m_title img{
+	width: 80px;
+	height: 70px;
+	transform: rotate(-90deg);
+}
+/*首页项目工作室样式结束*/

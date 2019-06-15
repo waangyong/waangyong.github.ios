@@ -1,0 +1,190 @@
+.container-fluid, h2{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*轮播悬浮框和文字样式开始*/
+.carousel-indicators{
+	display: none;/*去掉轮播的4个小圆点*/
+}
+#carousel-news .text{
+	width: 46.42424242%;
+	height: 10.52631579%;
+	background: rgba(59,69,74,0.8);
+	position: absolute;
+	top: 78.94736842%;
+	right: 0;
+	z-index: 100;
+}
+#carousel-news>.text>p{
+	font-weight: bold;
+	line-height: 135%;
+	color: #fdfdfd;	
+	font-size: 50px;
+	text-align: center;
+	letter-spacing: 18px;
+}
+#carousel-news .carousel-inner .item img{
+	width: 100%;
+	height: 100%;
+}
+#carousel-news{
+	position: relative;
+}
+#carousel-news>.left>img{
+	position: absolute;
+	left: 0;
+	top: 35%;
+}
+#carousel-news>.right>img{
+	position: absolute;
+	right: 0;
+	top: 35%;
+}
+.head_right{
+	position: relative;
+}
+#h_text{/*以下的样式都是待用，后期会更改*/
+	width: 100%;
+	height: 500px;
+	opacity: 0.5;
+	position: absolute;
+	top: 160px;
+	left: 0;
+	z-index: 100;
+}
+#s_text{
+	width: 100%;
+	height: 500px;
+	opacity: 0.5;
+	position: absolute;
+	top: 160px;
+	left: 0;
+	background: goldenrod;/*测试使用*/
+	z-index: 101;
+}
+#h_text,#s_text p{
+	font-family: "微软雅黑";
+	font-size: 40px;
+	color: #000000;
+	font-weight: bolder;
+	padding-top: 70px;/*测试使用*/
+}
+/*轮播悬浮框和文字样式结束*/
+/*首页头部样式结束*/
+
+
+/*首页每块标题样式开始*/
+.work h1, .work h4, .SchoolProfile h1, .SchoolProfile h4,#tea h1, #tea h4, .turn-photo h1, .turn-photo h4{
+	color: rgb(0,77,187);
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+.work h1, .SchoolProfile h1, #tea h1, .turn-photo h1{
+	font-size: 40px;
+	margin: 60px 0 20px 0;
+}
+.work h4, .SchoolProfile h4, #tea h4, .turn-photo h4{
+	margin-bottom: 30px;
+}
+.container-fluid>.eng_name{
+	text-align: center;
+	padding: 0;
+}
+#tea h4{
+	margin: 20px 0 20px 0;
+	text-align: left;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+@media all and (max-width: 1266px) {
+	.head_nav>img{
+		width: 75%;
+		margin-bottom: 20px;
+	}
+	#carousel-news>.text>p{
+		font-size: 6px;
+		letter-spacing: 8px;
+		line-height: 22px;
+	}
+	#tea  .explain p{
+		display: none;
+	}
+}
+/*首页每块标题样式结束*/
+
+/*回到顶部*/
+ .t-right-bar {
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    width: 48px;
+    height: 48px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.t-right-bar > div {
+    float: left;
+    height: 36px;
+    margin-bottom: 1px;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    padding-left: 100%;
+    clear: both;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 36px;
+    font-style: normal;
+    background-color: #aaa;
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    transition: transform .2s cubic-bezier(.215, .61, .355, 1), padding .2s cubic-bezier(.215, .61, .355, 1), margin .2s cubic-bezier(.215, .61, .355, 1), background-color .2s cubic-bezier(.215, .61, .355, 1)
+}
+
+ .t-right-bar > div.active, .t-right-bar > div:hover {
+    transform: translateX(-100%);
+    padding-left: 45px;
+    padding-right: 10px;
+    margin-left: 48px;
+    background-color: #23a0e1;
+    text-decoration: none;
+    color: #fff
+}
+
+.t-bar-support a{
+    color: white;
+}
+
+.t-bar-support a:hover{
+    color: #fff
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+	#carousel-news .text{
+		width: 52%;
+		height: 14%;
+	}
+
+	.explain{
+		margin-left: 18px !important;
+		width: 100%;
+	}
+
+	#tea h4{
+		margin-left: 8px;
+		margin-right: -2px;
+		font-size: 14px;
+	}
+	.bx-viewport .slider3 .slide{
+		width: 178px !important;
+		padding-left: -40px;
+	}
+
+	.bx-wrapper .bx-controls-direction a{
+		display: none;
+	}
+
+}

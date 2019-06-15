@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>学生获奖</title>
+		<meta name="viewport" content="width=device-width" initial-scale=1.0 />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/student honous.css" />
+		<link rel="stylesheet" href="css/头尾样式.css" />
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/student honous.js"></script>
+		<!--<script src="js/jquery-3.2.1.min.js"></script>-->
+	</head>
+	<body>
+		<!--头部开始-->
+		<div class="container-fluid" name="top">
+			<div class="row">
+				<div class="head_nav col-md-12">
+					<img src="img/logo.png" class="img_width pull-left" />
+					<a href="index.html"><img src="img/return.png" class="pull-right"/></a>
+					<a href="#"><img id="search" src="img/搜索icon.png" class="pull-right"/></a>		
+					<!--定义search悬停文字显示效果-->
+					<div id="s_text" style="display: none;"><p>关于搜索的文字</p></div>
+					<a href="#"><img id="home" src="img/home.png" class="pull-right"/></a>	
+					<!--定义home悬停文字显示效果-->
+					<div id="h_text" style="display: none;"><p>关于首页的文字</p></div>	
+				</div>
+			</div>
+		</div>
+		<!--头部结束-->
+		
+		
+		<!--导航开始-->
+        <div class="navbar navbar-default" role="navigation"><!--navbar-default去掉的话，PC端正常显示，但是移动端就没办法显示面包菜单-->
+	        <div class="container-fluid">
+	            <!--data-target="#navbar-main"定义当屏幕宽度小于768px时，隐藏的导航项-->
+		        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+		        <!--定义三个小图标实现按钮的外观是汉堡形状navbar-nav -->
+		        <span class="icon-bar"> </span>
+		        <span class="icon-bar"> </span>
+		        <span class="icon-bar"> </span>
+		        </button>
+	            <div class="collapse navbar-collapse" id="navbar-main">
+	               	<ul class="nav navbar-nav">
+	               		<li class="dropdown" role="presentation">
+	               			
+	               			<a href="学院简介.html" class="dropdown-toggle">学院概况
+	               			<span class="caret"></span></a>
+	               			
+	               			<ul class="dropdown-menu">
+           						<li><a href="学院简介.html">学院简介</a></li>
+           						<li><a href="组织结构.html">组织机构</a></li>
+           						<li><a href="院长介绍.html">院长介绍</a></li>
+	               			</ul>
+           				</li>
+           				
+           				<li class="dropdown" role="presentation">
+           					<a href="专业介绍.html" class="dropdown-toggle">人才培养
+           					<span class="caret"></span></a>
+           					<ul class="dropdown-menu">
+           						<li><a href="专业介绍.html">专业介绍</a></li>
+           						<li><a href="实践教学.html">实践教学</a></li>
+           						<li><a href="项目工作室.html">项目工作室</a></li>
+           					</ul>
+           				</li>
+           				  				
+           				<li class="dropdown" role="presentation">
+           					<a href="师资力量.html" class="dropdown-toggle">师资队伍
+           					<span class="caret"></span></a>
+           					<ul class="dropdown-menu">
+           						<li><a href="师资力量.html#specially">特聘教授</a></li>
+           						<li><a href="师资力量.html#visting">客座教授</a></li>
+           						<li><a href="师资力量.html#Full-Time">主要师资</a></li>
+           					</ul>
+           				</li>         				
+           				
+           				<li class="dropdown" role="presentation">
+           					<a href="学生获奖.html" class="dropdown-toggle">学院荣誉
+           					<span class="caret"></span></a>
+           					<ul class="dropdown-menu">
+           						<li><a href="学生获奖.html">学生获奖</a></li>
+           						<li><a href="教师获奖.html">教师获奖</a></li>
+           					</ul>
+           				</li>
+           				
+           				<li class="dropdown" role="presentation">
+           					<a href="招生工作.html" class="dropdown-toggle">招生就业
+           					<span class="caret"></span></a>
+           					<ul class="dropdown-menu">
+           						<li><a href="招生工作.html">招生工作</a></li>
+           						<li><a href="就业工作.html">就业工作</a></li>
+           					</ul>
+           				</li>
+           				
+           				<li class="dropdown" role="presentation">
+           					<a href="团学工作.html" class="dropdown-toggle">团学工作
+           					<span class="caret"></span></a>
+           					<ul class="dropdown-menu">
+           						<li><a href="团学工作.html">通知公告</a></li>
+           						<li><a href="团学工作.html">学生工作</a></li>
+           					</ul>
+           				</li>
+           				
+           				<li class="dropdown" role="presentation">
+           					<a href="党建工作.html" class="dropdown-toggle">党建工作
+           					<span class="caret"></span></a>
+           					<ul class="dropdown-menu">
+           						<li><a href="党建工作.html">通知公告</a></li>
+           						<li><a href="党建工作.html">党总支介绍</a></li>
+           						<li><a href="党建工作.html">理论学习</a></li>
+           					</ul>
+           				</li>
+           				
+           				<li class="dropdown" role="presentation">
+           					<a href="交流合作.html" class="dropdown-toggle">合作交流
+           					<span class="caret"></span></a>
+           					<ul class="dropdown-menu">
+           						<li><a href="交流合作.html">交流动态</a></li>
+           						<li><a href="交流合作.html">校企合作</a></li>
+           					</ul>
+           				</li>
+           				
+	            	</ul>
+	            </div>
+	        </div>
+        </div>
+        <!--导航结束-->
+		
+		<!--学生获奖banner开始-->
+		<div class="banner">
+			<img src="img/学生获奖banner.png"/>
+			<p>学生获奖</p>
+		</div>
+		<!--学生获奖banner结束-->
+		
+		<div class="between">
+			<h1>获奖证书</h1>
+			<ul id="lunbo">
+				<li class="p1">
+					<img src="img/jiang1.png" />
+				</li>
+				<li class="p2">
+					<img src="img/jiang2.png" />
+				</li>
+			    <li class="p3">
+					<img src="img/jiang3.png" />
+				</li>
+				<li class="p4">
+					<img src="img/jiang4.png" />
+				</li>
+				<li class="p5">
+					<img src="img/jiang5.png" />
+				</li>
+				<li class="p6">
+					<img src="img/jiang6.png" />
+				</li>
+				<li class="p7">
+					<img src="img/8.png" />
+				</li>
+				<li class="p8">
+					<img src="img/2.png" />
+				</li>
+				<li class="p9">
+					<img src="img/6.png" />
+				</li>
+			</ul>
+			<div class="between_left">
+				<img src="img/zuo.png"/>
+			</div>
+			<div class="between_right">
+				<img src="img/you.png" />
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 >学生竞赛获奖</h2>
+					<img src="img/学生获奖1.png" />
+					<h4>2017年</h4>
+					<p class="headline">全国应用技能比赛一等奖1项、二等奖5项</p>
+					<hr />
+					<div class="thing">
+						<span class="context">第一届中国软件杯大学生软件设计大赛</span>
+						<span class="time">2018年</span><br />
+						<hr />
+					</div>
+					<div class="things">
+						<span class="contexts">第八届蓝桥杯软件和信息技术专业人才大赛</span>
+						<span class="times">2018年</span><br />
+						<hr />
+					</div>
+					<div class="collide" onclick="shoeHide1()">更多...</div>
+					<hr />
+					<div id="blocknone">
+						<div class="thing">
+							<span class="context">第一届中国软件杯大学生软件设计大赛</span>
+						    <span class="time">2018年</span><br />
+						    <hr />
+					    </div>
+					    <div class="things">
+						    <span class="contexts">第八届蓝桥杯软件和信息技术专业人才大赛</span>
+						    <span class="times">2018年</span><br />
+						    <hr />
+					    </div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2 >学生活动获奖</h2>
+					<img src="img/学生获奖2.png" />
+					<h4>2018年</h4>
+					<p class="headline">四川省XX乒乓球大赛个人一等奖2项</p>
+					<hr />
+					<div class="thing">
+						<span class="context">第一届中国软件杯大学生软件设计大赛</span>
+						<span class="time">2018年</span><br />
+						<hr />
+					</div>
+					<div class="things">
+						<span class="contexts">第八届蓝桥杯软件和信息技术专业人才大赛</span>
+						<span class="times">2018年</span><br />
+						<hr />
+					</div>
+					<div class="collide" onclick="shoeHide2()">更多...</div>
+					<hr />
+				
+					<div id="noneblock">
+						<div class="thing">
+							<span class="context">第一届中国软件杯大学生软件设计大赛</span>
+							<span class="time">2018年</span><br />
+							<hr />
+					    </div>
+					    <div class="things">
+					    	<span class="contexts">第八届蓝桥杯软件和信息技术专业人才大赛</span>
+					    	<span class="times">2018年</span><br />
+					    	<hr />
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--首页底部开始-->
+		<div class="footer">
+			<img src="img/尾.png" />
+		</div>
+		<!--首页底部结束-->
+	</body>
+	<script src="js/学生获奖.js"></script>
+</html>

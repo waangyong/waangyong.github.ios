@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 1050px;
+}
+header{
+	height: 10.56%;
+	text-align: center;
+	background: url(../img/line.png) no-repeat bottom;
+	
+}
+.textarea{
+	width: 89%;
+	height: 15%;
+	margin-left: 5%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 8;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+}
+section{
+	height: 40%;
+	/*border: 1px solid black;*/
+}
+section>*{
+	height: 100%;
+	float: left;
+}
+.news{
+	margin-left: 10%;
+	width: 40.66%;
+	/*border: 1px solid black;*/
+}
+.inform{
+	margin-left: 5%;
+	width: 40.66%;
+	/*border: 1px solid black;*/
+}
+button{
+	height: 30px;
+	background: aqua;
+}
+.image_left{
+	width: 35%;
+	height: 100%;
+	float: left;
+	/*border: 1px solid black;*/
+}
+/*****************************************/
+.left_img{
+	background: url(../img/co_float.png) no-repeat;
+	background-size: 100% 100%;
+}
+.news_left>.left_img{
+	height: 310px;
+	width: 45%;
+	/*border: 1px solid;*/
+	float: left;
+}
+.right_panel{
+	height: auto;
+	width: 54%;
+	/*border: 1px solid;*/
+	float: left;
+}
+.panel-title a{
+	font-size: 14px !important;
+	
+}
+.right_panel a{
+	font-size: 12px;
+	text-decoration: none;
+}
+.panel-body>p{
+	text-align: left;
+	margin-bottom: 25px;
+}
+strong{
+	color: rgb(0,77,187);
+}

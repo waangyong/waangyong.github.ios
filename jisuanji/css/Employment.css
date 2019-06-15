@@ -1,0 +1,125 @@
+.container-fluid, h2{
+	margin: 0;
+	padding: 0;
+}
+/*首页头部样式开始*/
+.head_nav a img{
+	margin:30px 20px 0 14px;
+}
+/*首页头部样式结束*/
+.upside{
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+.upside img{
+	width: 100%;
+	float: left;
+	height: 400px;
+}
+.upside .upside_h1{
+	margin-right: 40px;
+	width: 30%;
+	height: 60px;
+	line-height: 60px;
+	letter-spacing: 10px;
+	text-align: left;
+	position: absolute;
+	right: 0;
+	bottom: 20%;
+	background: #000000;
+	opacity: 0.6;
+	font-size: 45px;
+	color: #FFFFFF;
+	text-indent: 15px;
+}
+.upside .upside_h2{
+	width: 33%;
+	height: 45px;
+	line-height: 45px;
+	/*letter-spacing: 10px;*/
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 14%;
+	background: #000000;
+	opacity: 0.6;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+.between{
+	background-position: 0 100px;
+	/*float: inherit;*/
+	margin-top: 50px;
+	background-image: url(../img/enro_wall.jpg);
+	/*margin: 0;*/
+	background-size: 100% 100%;
+	clear: both;
+	background-repeat: no-repeat;
+}
+.between h2{
+	padding-top: 180px;
+	font-weight: bold;
+	text-indent: 8%;
+}
+.between .down_content .fl{
+	float: left;
+}
+
+.between a{
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.between a:hover{
+	color: red;
+	cursor: pointer;
+}
+
+.between .down_content{
+	margin: 60px;
+}
+
+/*联系方式开始*/
+.underpart{
+	background-image: url(../img/enro_background.png);
+	height: 140px;
+	background-size: 100% 100%;
+	margin-top: 100px;
+	width: 100%;
+	clear: both;
+	background-repeat: no-repeat;
+}
+.underpart>h2{
+	padding-top: 30px;
+	font-weight: bold;
+	text-indent: 5%;
+}
+.underpart>p{
+	margin: 40px;
+	width: 25%;
+	float: left;
+	text-indent: 6%;
+	font-size: 140%;
+}
+/*联系方式结束*/
+/*底部样式开始*/
+/*.footer{*/
+	/*width: 100%;*/
+	/*height: 260px;*/
+	/*background-color: rgb(0,32,91);*/
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	/*margin-top: 150px;*/
+/*}*/
+
+@media (min-width: 360px) and (max-width: 1024px){
+	.underpart>p{
+		margin: 20px 10px;
+		width: 30% !important;
+		float: left;
+		text-indent: 4%;
+		font-size: 140%;
+	}
+}

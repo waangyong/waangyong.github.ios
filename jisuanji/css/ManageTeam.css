@@ -1,0 +1,13 @@
+.Man_leader .row p{
+	height: 68px;
+	font-size: 20px;
+	line-height: 68px;
+}
+.Man_leader .col-md-10 .row a{
+	text-decoration: none;
+}
+.Man_leader .row p>span{
+	font-size: 24px;
+	margin-right: 5%;
+}
+
